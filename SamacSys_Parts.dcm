@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP VXO7803-500-M-TR
+D Non-Isolated DC/DC Converters dc-dc non-isolated, 0.5 A, 4.75~36 Vdc input, 3.3 Vdc output, SMT, open frame, tape and reel
+K
+F https://www.mouser.ch/datasheet/2/670/vxo78-500-m-1729064.pdf
+$ENDCMP
+#
+#End Doc Library

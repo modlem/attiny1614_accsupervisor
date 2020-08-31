@@ -125,4 +125,21 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4000 1950 50  0001 C CNN
 	1    4000 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L SamacSys_Parts:VXO7803-500-M-TR J?
+U 1 1 5F4CCD41
+P 1100 1700
+F 0 "J?" H 1850 1965 50  0000 C CNN
+F 1 "VXO7803-500-M-TR" H 1850 1874 50  0000 C CNN
+F 2 "SamacSys_Parts:VXO7803500MTR" H 2450 1800 50  0001 L CNN
+F 3 "https://www.mouser.ch/datasheet/2/670/vxo78-500-m-1729064.pdf" H 2450 1700 50  0001 L CNN
+F 4 "Non-Isolated DC/DC Converters dc-dc non-isolated, 0.5 A, 4.75~36 Vdc input, 3.3 Vdc output, SMT, open frame, tape and reel" H 2450 1600 50  0001 L CNN "Description"
+F 5 "3.5" H 2450 1500 50  0001 L CNN "Height"
+F 6 "490-VXO7803-500-M-TR" H 2450 1400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7803-500-M-TR?qs=GBLSl2AkiruqsgUrpmz5tw%3D%3D" H 2450 1300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Inc" H 2450 1200 50  0001 L CNN "Manufacturer_Name"
+F 9 "VXO7803-500-M-TR" H 2450 1100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1100 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
