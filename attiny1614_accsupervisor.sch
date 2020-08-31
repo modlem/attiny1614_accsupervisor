@@ -16,130 +16,566 @@ $EndDescr
 $Comp
 L MCU_Microchip_ATtiny:ATtiny1614-SS U?
 U 1 1 5F4C5CFF
-P 6700 2250
-F 0 "U?" H 6700 3131 50  0000 C CNN
-F 1 "ATtiny1614-SS" H 6700 3040 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6700 2250 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 6700 2250 50  0001 C CNN
-	1    6700 2250
+P 5400 2200
+F 0 "U?" H 5550 3000 50  0000 C CNN
+F 1 "ATtiny1614-SS" H 5750 2900 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5400 2200 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 5400 2200 50  0001 C CNN
+	1    5400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Relay:G5LE-1 K?
 U 1 1 5F4C84B2
-P 4000 4150
-F 0 "K?" H 4430 4196 50  0000 L CNN
-F 1 "JSM1-12V-5" H 4430 4105 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 4450 4100 50  0001 L CNN
-F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 4000 4150 50  0001 C CNN
-F 4 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf" H 4000 4150 50  0001 C CNN "Alter."
-	1    4000 4150
+P 1900 6050
+F 0 "K?" H 2330 6096 50  0000 L CNN
+F 1 "JSM1-12V-5" H 2330 6005 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 2350 6000 50  0001 L CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 1900 6050 50  0001 C CNN
+F 4 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf" H 1900 6050 50  0001 C CNN "Alter."
+	1    1900 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:2N3904 Q?
 U 1 1 5F4CB172
-P 4550 2850
-F 0 "Q?" H 4740 2896 50  0000 L CNN
-F 1 "2N3904" H 4740 2805 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4750 2775 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4550 2850 50  0001 L CNN
-	1    4550 2850
+P 2450 4750
+F 0 "Q?" H 2640 4796 50  0000 L CNN
+F 1 "2N3904" H 2640 4705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2650 4675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2450 4750 50  0001 L CNN
+	1    2450 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F4CC64F
-P 3950 2850
-F 0 "R?" V 3743 2850 50  0000 C CNN
-F 1 "1K" V 3834 2850 50  0000 C CNN
-F 2 "" V 3880 2850 50  0001 C CNN
-F 3 "~" H 3950 2850 50  0001 C CNN
-	1    3950 2850
+P 1850 4750
+F 0 "R?" V 1643 4750 50  0000 C CNN
+F 1 "1K" V 1734 4750 50  0000 C CNN
+F 2 "" V 1780 4750 50  0001 C CNN
+F 3 "~" H 1850 4750 50  0001 C CNN
+	1    1850 4750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4100 2850 4350 2850
+	2000 4750 2250 4750
 Wire Wire Line
-	3800 2850 3600 2850
-Text Label 3600 2850 2    50   ~ 0
+	1700 4750 1500 4750
+Text Label 1500 4750 2    50   ~ 0
 RLY_ON
 Wire Wire Line
-	4650 3050 4650 3150
+	2550 4950 2550 5050
 $Comp
 L power:GND #PWR?
 U 1 1 5F4CF2BF
-P 4650 3150
-F 0 "#PWR?" H 4650 2900 50  0001 C CNN
-F 1 "GND" H 4655 2977 50  0000 C CNN
-F 2 "" H 4650 3150 50  0001 C CNN
-F 3 "" H 4650 3150 50  0001 C CNN
-	1    4650 3150
+P 2550 5050
+F 0 "#PWR?" H 2550 4800 50  0001 C CNN
+F 1 "GND" H 2555 4877 50  0000 C CNN
+F 2 "" H 2550 5050 50  0001 C CNN
+F 3 "" H 2550 5050 50  0001 C CNN
+	1    2550 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2650 4650 2450
+	2550 4550 2550 4350
 Wire Wire Line
-	3800 3850 3800 3750
+	1700 5750 1700 5650
 Wire Wire Line
-	3800 3750 3450 3750
-Text Label 3450 3750 2    50   ~ 0
+	1700 5650 1350 5650
+Text Label 1350 5650 2    50   ~ 0
 12V
 Wire Wire Line
-	3800 4450 3800 4550
+	1700 6350 1700 6450
 Wire Wire Line
-	3800 4550 3450 4550
-Text Label 3450 4550 2    50   ~ 0
+	1700 6450 1350 6450
+Text Label 1350 6450 2    50   ~ 0
 RLY_L
-NoConn ~ 4100 3850
+NoConn ~ 2000 5750
 Wire Wire Line
-	4300 3850 4300 3750
+	2200 5750 2200 5650
 Wire Wire Line
-	4300 3750 4700 3750
+	2200 5650 2600 5650
 Wire Wire Line
-	4200 4450 4200 4550
+	2100 6350 2100 6450
 Wire Wire Line
-	4200 4550 4700 4550
-Text Label 4700 4550 0    50   ~ 0
+	2100 6450 2600 6450
+Text Label 2600 6450 0    50   ~ 0
 12V
-Text Label 4700 3750 0    50   ~ 0
-J12V
-Text Label 4650 2450 2    50   ~ 0
+Text Label 2600 5650 0    50   ~ 0
+JST_12V
+Text Label 2550 4350 2    50   ~ 0
 RLY_L
-Text Label 4450 1950 0    50   ~ 0
+Text Label 2350 3850 0    50   ~ 0
 RLY_L
 Wire Wire Line
-	4150 1950 4450 1950
-Text Label 3550 1950 2    50   ~ 0
+	2050 3850 2350 3850
+Text Label 1450 3850 2    50   ~ 0
 12V
 Wire Wire Line
-	3850 1950 3550 1950
+	1750 3850 1450 3850
 $Comp
 L Diode:1N4001 D?
 U 1 1 5F4CB582
-P 4000 1950
-F 0 "D?" H 4000 2167 50  0000 C CNN
-F 1 "1N4001" H 4000 2076 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4000 1775 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4000 1950 50  0001 C CNN
-	1    4000 1950
+P 1900 3850
+F 0 "D?" H 1900 4067 50  0000 C CNN
+F 1 "1N4001" H 1900 3976 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1900 3675 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1900 3850 50  0001 C CNN
+	1    1900 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L SamacSys_Parts:VXO7803-500-M-TR J?
 U 1 1 5F4CCD41
-P 1100 1700
-F 0 "J?" H 1850 1965 50  0000 C CNN
-F 1 "VXO7803-500-M-TR" H 1850 1874 50  0000 C CNN
-F 2 "SamacSys_Parts:VXO7803500MTR" H 2450 1800 50  0001 L CNN
-F 3 "https://www.mouser.ch/datasheet/2/670/vxo78-500-m-1729064.pdf" H 2450 1700 50  0001 L CNN
-F 4 "Non-Isolated DC/DC Converters dc-dc non-isolated, 0.5 A, 4.75~36 Vdc input, 3.3 Vdc output, SMT, open frame, tape and reel" H 2450 1600 50  0001 L CNN "Description"
-F 5 "3.5" H 2450 1500 50  0001 L CNN "Height"
-F 6 "490-VXO7803-500-M-TR" H 2450 1400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7803-500-M-TR?qs=GBLSl2AkiruqsgUrpmz5tw%3D%3D" H 2450 1300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "CUI Inc" H 2450 1200 50  0001 L CNN "Manufacturer_Name"
-F 9 "VXO7803-500-M-TR" H 2450 1100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1100 1700
+P 1050 1100
+F 0 "J?" H 1800 1365 50  0000 C CNN
+F 1 "VXO7803-500-M-TR" H 1800 1274 50  0000 C CNN
+F 2 "SamacSys_Parts:VXO7803500MTR" H 2400 1200 50  0001 L CNN
+F 3 "https://www.mouser.ch/datasheet/2/670/vxo78-500-m-1729064.pdf" H 2400 1100 50  0001 L CNN
+F 4 "Non-Isolated DC/DC Converters dc-dc non-isolated, 0.5 A, 4.75~36 Vdc input, 3.3 Vdc output, SMT, open frame, tape and reel" H 2400 1000 50  0001 L CNN "Description"
+F 5 "3.5" H 2400 900 50  0001 L CNN "Height"
+F 6 "490-VXO7803-500-M-TR" H 2400 800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Inc/VXO7803-500-M-TR?qs=GBLSl2AkiruqsgUrpmz5tw%3D%3D" H 2400 700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Inc" H 2400 600 50  0001 L CNN "Manufacturer_Name"
+F 9 "VXO7803-500-M-TR" H 2400 500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5F4CD13F
+P 9750 2400
+F 0 "J?" H 9800 3517 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 9800 3426 50  0000 C CNN
+F 2 "" H 9750 2400 50  0001 C CNN
+F 3 "~" H 9750 2400 50  0001 C CNN
+	1    9750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 1500 9400 1500
+Wire Wire Line
+	9550 1600 9400 1600
+Wire Wire Line
+	9550 1700 9400 1700
+Wire Wire Line
+	9550 1800 9400 1800
+Wire Wire Line
+	9550 1900 9400 1900
+Wire Wire Line
+	9550 2000 9400 2000
+Wire Wire Line
+	9550 2100 9400 2100
+Wire Wire Line
+	9550 2200 9400 2200
+Wire Wire Line
+	9550 2300 9400 2300
+Wire Wire Line
+	9550 2400 9400 2400
+Wire Wire Line
+	9550 2500 9400 2500
+Wire Wire Line
+	9550 2600 9400 2600
+Wire Wire Line
+	9550 2700 9400 2700
+Wire Wire Line
+	9550 2800 9400 2800
+Wire Wire Line
+	9550 2900 9400 2900
+Wire Wire Line
+	9550 3000 9400 3000
+Wire Wire Line
+	9550 3100 9400 3100
+Wire Wire Line
+	9550 3200 9400 3200
+Wire Wire Line
+	9550 3300 9400 3300
+Wire Wire Line
+	9550 3400 9400 3400
+Wire Wire Line
+	10050 1500 10200 1500
+Wire Wire Line
+	10050 1600 10200 1600
+Wire Wire Line
+	10050 1700 10200 1700
+Wire Wire Line
+	10050 1800 10200 1800
+Wire Wire Line
+	10050 1900 10200 1900
+Wire Wire Line
+	10050 2000 10200 2000
+Wire Wire Line
+	10050 2100 10200 2100
+Wire Wire Line
+	10050 2200 10200 2200
+Wire Wire Line
+	10050 2300 10200 2300
+Wire Wire Line
+	10050 2400 10200 2400
+Wire Wire Line
+	10050 2500 10200 2500
+Wire Wire Line
+	10050 2600 10200 2600
+Wire Wire Line
+	10050 2700 10200 2700
+Wire Wire Line
+	10050 2800 10200 2800
+Wire Wire Line
+	10050 2900 10200 2900
+Wire Wire Line
+	10050 3000 10200 3000
+Wire Wire Line
+	10050 3100 10200 3100
+Wire Wire Line
+	10050 3200 10200 3200
+Wire Wire Line
+	10050 3300 10200 3300
+Wire Wire Line
+	10050 3400 10200 3400
+Text Label 10200 1800 0    50   ~ 0
+JST_TX
+Text Label 10200 1900 0    50   ~ 0
+JST_RX
+Text Label 10200 1700 0    50   ~ 0
+JST_GND
+NoConn ~ 9400 1500
+NoConn ~ 9400 1600
+NoConn ~ 9400 1700
+NoConn ~ 9400 1800
+NoConn ~ 9400 2000
+NoConn ~ 9400 2100
+NoConn ~ 9400 2200
+NoConn ~ 9400 2300
+NoConn ~ 9400 2400
+NoConn ~ 9400 2500
+NoConn ~ 9400 2600
+NoConn ~ 9400 2800
+NoConn ~ 9400 2900
+NoConn ~ 9400 3000
+NoConn ~ 9400 3100
+NoConn ~ 9400 3200
+NoConn ~ 9400 3300
+Text Label 10200 2100 0    50   ~ 0
+JST_GND
+Text Label 10200 2400 0    50   ~ 0
+JST_GND
+Text Label 10200 2900 0    50   ~ 0
+JST_GND
+Text Label 10200 3100 0    50   ~ 0
+JST_GND
+Text Label 9400 3400 2    50   ~ 0
+JST_GND
+Text Label 9400 2700 2    50   ~ 0
+JST_GND
+Text Label 9400 1900 2    50   ~ 0
+JST_GND
+NoConn ~ 10200 1500
+NoConn ~ 10200 1600
+NoConn ~ 10200 2000
+NoConn ~ 10200 2200
+NoConn ~ 10200 2300
+NoConn ~ 10200 2500
+NoConn ~ 10200 2600
+NoConn ~ 10200 2700
+NoConn ~ 10200 2800
+NoConn ~ 10200 3000
+NoConn ~ 10200 3200
+NoConn ~ 10200 3300
+NoConn ~ 10200 3400
+Wire Wire Line
+	1050 1100 900  1100
+Wire Wire Line
+	2550 1200 2700 1200
+Text Label 900  1100 2    50   ~ 0
+12V
+NoConn ~ 1050 1200
+$Comp
+L Device:C C?
+U 1 1 5F4FA9CB
+P 1300 1900
+F 0 "C?" H 1415 1946 50  0000 L CNN
+F 1 "10u" H 1415 1855 50  0000 L CNN
+F 2 "" H 1338 1750 50  0001 C CNN
+F 3 "~" H 1300 1900 50  0001 C CNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F4FB924
+P 2400 1900
+F 0 "C?" H 2515 1946 50  0000 L CNN
+F 1 "22u" H 2515 1855 50  0000 L CNN
+F 2 "" H 2438 1750 50  0001 C CNN
+F 3 "~" H 2400 1900 50  0001 C CNN
+	1    2400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1750 1300 1600
+Wire Wire Line
+	1300 1600 1050 1600
+Wire Wire Line
+	1300 2050 1300 2200
+Wire Wire Line
+	1300 2200 1900 2200
+Wire Wire Line
+	2400 2200 2400 2050
+Wire Wire Line
+	2400 1750 2400 1600
+Text Label 1050 1600 2    50   ~ 0
+12V
+Wire Wire Line
+	2400 1600 2650 1600
+Text Label 2650 1600 0    50   ~ 0
+3V3
+Wire Wire Line
+	1900 2200 1900 2300
+Connection ~ 1900 2200
+Wire Wire Line
+	1900 2200 2400 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5F5031AF
+P 1900 2300
+F 0 "#PWR?" H 1900 2050 50  0001 C CNN
+F 1 "GND" H 1905 2127 50  0000 C CNN
+F 2 "" H 1900 2300 50  0001 C CNN
+F 3 "" H 1900 2300 50  0001 C CNN
+	1    1900 2300
+	1    0    0    -1  
+$EndComp
+Text Label 2700 1200 0    50   ~ 0
+3V3
+Wire Wire Line
+	3000 1100 3000 1250
+Wire Wire Line
+	2550 1100 3000 1100
+$Comp
+L power:GND #PWR?
+U 1 1 5F504E8A
+P 3000 1250
+F 0 "#PWR?" H 3000 1000 50  0001 C CNN
+F 1 "GND" H 3005 1077 50  0000 C CNN
+F 2 "" H 3000 1250 50  0001 C CNN
+F 3 "" H 3000 1250 50  0001 C CNN
+	1    3000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5F4CEC6F
+P 8850 4850
+F 0 "J?" H 8930 4892 50  0000 L CNN
+F 1 "MSTBA_2,5_3-G" H 8930 4801 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G_1x03_P5.00mm_Horizontal" H 8850 4850 50  0001 C CNN
+F 3 "~" H 8850 4850 50  0001 C CNN
+	1    8850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F4CF2C0
+P 10350 4750
+F 0 "J?" H 10430 4742 50  0000 L CNN
+F 1 "Conn_01x02" H 10430 4651 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 10350 4750 50  0001 C CNN
+F 3 "~" H 10350 4750 50  0001 C CNN
+	1    10350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4750 8450 4750
+Text Label 8450 4750 2    50   ~ 0
+12V
+Wire Wire Line
+	8650 4850 8450 4850
+Text Label 8450 4850 2    50   ~ 0
+ACC
+Wire Wire Line
+	8650 4950 8450 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5F4D479C
+P 8450 4950
+F 0 "#PWR?" H 8450 4700 50  0001 C CNN
+F 1 "GND" H 8455 4777 50  0000 C CNN
+F 2 "" H 8450 4950 50  0001 C CNN
+F 3 "" H 8450 4950 50  0001 C CNN
+	1    8450 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4750 9950 4750
+Text Label 9950 4750 2    50   ~ 0
+JST_12V
+Wire Wire Line
+	10150 4850 9950 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5F4D86CF
+P 9950 4850
+F 0 "#PWR?" H 9950 4600 50  0001 C CNN
+F 1 "GND" H 9955 4677 50  0000 C CNN
+F 2 "" H 9950 4850 50  0001 C CNN
+F 3 "" H 9950 4850 50  0001 C CNN
+	1    9950 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1500 5400 1400
+Wire Wire Line
+	5400 1400 4600 1400
+Text Label 4600 1400 2    50   ~ 0
+3V3
+Wire Wire Line
+	4800 2100 4600 2100
+Text Label 4600 2100 2    50   ~ 0
+AVR_RX
+Wire Wire Line
+	4800 2000 4600 2000
+Text Label 4600 2000 2    50   ~ 0
+AVR_TX
+$Comp
+L Device:R R?
+U 1 1 5F4E6D74
+P 5150 4600
+F 0 "R?" V 4943 4600 50  0000 C CNN
+F 1 "0" V 5034 4600 50  0000 C CNN
+F 2 "" V 5080 4600 50  0001 C CNN
+F 3 "~" H 5150 4600 50  0001 C CNN
+	1    5150 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F4E91D4
+P 5150 4950
+F 0 "R?" V 4943 4950 50  0000 C CNN
+F 1 "DNP" V 5034 4950 50  0000 C CNN
+F 2 "" V 5080 4950 50  0001 C CNN
+F 3 "~" H 5150 4950 50  0001 C CNN
+	1    5150 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 4600 4900 4600
+Wire Wire Line
+	5000 4950 4900 4950
+Wire Wire Line
+	4900 4950 4900 4600
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4600 4800 4600
+Wire Wire Line
+	5300 4600 5400 4600
+Wire Wire Line
+	5300 4950 5400 4950
+Wire Wire Line
+	5400 4950 5400 4600
+Connection ~ 5400 4600
+Wire Wire Line
+	5400 4600 5500 4600
+Text Label 4800 4600 2    50   ~ 0
+AVR_TX
+Text Label 5500 4600 0    50   ~ 0
+JST_RX
+$Comp
+L Device:R R?
+U 1 1 5F4F49EF
+P 6600 4600
+F 0 "R?" V 6393 4600 50  0000 C CNN
+F 1 "0" V 6484 4600 50  0000 C CNN
+F 2 "" V 6530 4600 50  0001 C CNN
+F 3 "~" H 6600 4600 50  0001 C CNN
+	1    6600 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F4F49F5
+P 6600 4950
+F 0 "R?" V 6393 4950 50  0000 C CNN
+F 1 "DNP" V 6484 4950 50  0000 C CNN
+F 2 "" V 6530 4950 50  0001 C CNN
+F 3 "~" H 6600 4950 50  0001 C CNN
+	1    6600 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 4600 6350 4600
+Wire Wire Line
+	6450 4950 6350 4950
+Wire Wire Line
+	6350 4950 6350 4600
+Connection ~ 6350 4600
+Wire Wire Line
+	6350 4600 6250 4600
+Wire Wire Line
+	6750 4600 6850 4600
+Wire Wire Line
+	6750 4950 6850 4950
+Wire Wire Line
+	6850 4950 6850 4600
+Connection ~ 6850 4600
+Wire Wire Line
+	6850 4600 6950 4600
+Text Label 6250 4600 2    50   ~ 0
+AVR_RX
+Text Label 6950 4600 0    50   ~ 0
+JST_TX
+$Comp
+L Device:C C?
+U 1 1 5F4D081D
+P 7050 1800
+F 0 "C?" H 7165 1846 50  0000 L CNN
+F 1 "0.1u" H 7165 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7088 1650 50  0001 C CNN
+F 3 "~" H 7050 1800 50  0001 C CNN
+F 4 "C1206C104M5RACTU" H 7050 1800 50  0001 C CNN "Man.#"
+	1    7050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1650 7050 1550
+Wire Wire Line
+	7050 1550 6750 1550
+Wire Wire Line
+	7050 1950 7050 2050
+Text Label 6750 1550 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5F4D759F
+P 5400 2900
+F 0 "#PWR?" H 5400 2650 50  0001 C CNN
+F 1 "GND" H 5405 2727 50  0000 C CNN
+F 2 "" H 5400 2900 50  0001 C CNN
+F 3 "" H 5400 2900 50  0001 C CNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4D78EF
+P 7050 2050
+F 0 "#PWR?" H 7050 1800 50  0001 C CNN
+F 1 "GND" H 7055 1877 50  0000 C CNN
+F 2 "" H 7050 2050 50  0001 C CNN
+F 3 "" H 7050 2050 50  0001 C CNN
+	1    7050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AVR-UPDI-6 J?
+U 1 1 5F4D0962
+P 7450 3250
+F 0 "J?" H 7121 3296 50  0000 R CNN
+F 1 "AVR-UPDI-6" H 7121 3205 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 7200 3200 50  0001 C CNN
+F 3 "https://www.microchip.com/webdoc/GUID-9D10622A-5C16-4405-B092-1BDD437B4976/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F" H 6175 2700 50  0001 C CNN
+	1    7450 3250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
