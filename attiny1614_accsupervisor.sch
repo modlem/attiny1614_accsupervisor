@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "ATTINY-ACC-Supervisor"
+Date "2020-09-01"
+Rev "r01"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "(c) 2020, Jason Kwon"
 $EndDescr
 $Comp
 L MCU_Microchip_ATtiny:ATtiny1614-SS U1
@@ -410,15 +410,6 @@ Wire Wire Line
 Connection ~ 8500 1450
 Wire Wire Line
 	8500 1450 8400 1450
-Wire Wire Line
-	8900 1450 9000 1450
-Wire Wire Line
-	8900 1800 9000 1800
-Wire Wire Line
-	9000 1800 9000 1450
-Connection ~ 9000 1450
-Wire Wire Line
-	9000 1450 9100 1450
 Text Label 8400 1450 2    50   ~ 0
 AVR_TX
 Text Label 9100 1450 0    50   ~ 0
@@ -454,15 +445,6 @@ Wire Wire Line
 Connection ~ 8500 2250
 Wire Wire Line
 	8500 2250 8400 2250
-Wire Wire Line
-	8900 2250 9000 2250
-Wire Wire Line
-	8900 2600 9000 2600
-Wire Wire Line
-	9000 2600 9000 2250
-Connection ~ 9000 2250
-Wire Wire Line
-	9000 2250 9100 2250
 Text Label 8400 2250 2    50   ~ 0
 AVR_RX
 Text Label 9100 2250 0    50   ~ 0
@@ -991,4 +973,38 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2350 6150 50  0001 L CNN
 	1    2350 6150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F7DB97A
+P 4200 6900
+F 0 "H1" H 4300 6946 50  0000 L CNN
+F 1 "3.2mm" H 4300 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 6900 50  0001 C CNN
+F 3 "~" H 4200 6900 50  0001 C CNN
+	1    4200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 5F7F496C
+P 5450 7050
+F 0 "#LOGO1" H 5450 7550 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 5450 6650 50  0001 C CNN
+F 2 "attiny1614_accsupervisor:Doge" H 5450 7050 50  0001 C CNN
+F 3 "~" H 5450 7050 50  0001 C CNN
+	1    5450 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1450 9100 1450
+Text Label 9100 1800 0    50   ~ 0
+JST_TX
+Wire Wire Line
+	8900 1800 9100 1800
+Wire Wire Line
+	8900 2250 9100 2250
+Text Label 9100 2600 0    50   ~ 0
+JST_RX
+Wire Wire Line
+	8900 2600 9100 2600
 $EndSCHEMATC
