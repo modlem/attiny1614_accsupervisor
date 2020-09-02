@@ -528,20 +528,18 @@ Wire Wire Line
 Text Label 6450 1150 0    50   ~ 0
 UPDI_DATA
 Wire Wire Line
-	6250 1250 6450 1250
-Text Label 6450 1250 0    50   ~ 0
+	5050 1250 4850 1250
+Text Label 4850 1250 2    50   ~ 0
 RLY_ON
 Wire Wire Line
-	6250 1750 6450 1750
-Text Label 6450 1750 0    50   ~ 0
+	6250 1250 6450 1250
+Text Label 6450 1350 0    50   ~ 0
 ADC2_ACC
 Wire Wire Line
-	6250 1850 6450 1850
-Text Label 6450 1850 0    50   ~ 0
+	6250 1350 6450 1350
+Text Label 6450 1250 0    50   ~ 0
 ADC1_VIN
 NoConn ~ 5050 1150
-NoConn ~ 5050 1250
-NoConn ~ 6250 1450
 NoConn ~ 6250 1550
 NoConn ~ 6250 1650
 Wire Wire Line
@@ -1007,7 +1005,9 @@ JST_RX
 Wire Wire Line
 	8900 2600 9100 2600
 Wire Wire Line
-	6250 1350 6450 1350
-Text Label 6450 1350 0    50   ~ 0
+	6250 1450 6450 1450
+Text Label 6450 1450 0    50   ~ 0
 ADC_ON
+NoConn ~ 6250 1750
+NoConn ~ 6250 1850
 $EndSCHEMATC
