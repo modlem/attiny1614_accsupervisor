@@ -21,6 +21,8 @@ F 0 "U1" H 5800 2350 50  0000 C CNN
 F 1 "ATtiny1614-SS" H 6000 2250 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 1550 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny1614-data-sheet-40001995A.pdf" H 5650 1550 50  0001 C CNN
+F 4 "-" H 5650 1550 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 5650 1550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5650 1550
 	1    0    0    -1  
 $EndComp
@@ -33,6 +35,8 @@ F 1 "JSM1-12V-5" H 3430 5305 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_Omron-G5LE-1" H 3450 5300 50  0001 L CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" H 3000 5350 50  0001 C CNN
 F 4 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electric%20Works%20PDFs/JS-M_Series_Rev_Dec_2011.pdf" H 3000 5350 50  0001 C CNN "Alter."
+F 5 "Panasonic" H 3000 5350 50  0001 C CNN "Manufacturer_Name"
+F 6 "JSM1-12V-5" H 3000 5350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3000 5350
 	1    0    0    -1  
 $EndComp
@@ -44,6 +48,8 @@ F 0 "R1" V 1543 6150 50  0000 C CNN
 F 1 "1k" V 1634 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1680 6150 50  0001 C CNN
 F 3 "~" H 1750 6150 50  0001 C CNN
+F 4 "(Generic)" H 1750 6150 50  0001 C CNN "Manufacturer_Name"
+F 5 "(1k)" H 1750 6150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1750 6150
 	0    1    1    0   
 $EndComp
@@ -114,6 +120,8 @@ F 0 "J4" H 10150 3067 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 10150 2976 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 10100 1950 50  0001 C CNN
 F 3 "~" H 10100 1950 50  0001 C CNN
+F 4 "-" H 10100 1950 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 10100 1950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    10100 1950
 	1    0    0    -1  
 $EndComp
@@ -240,6 +248,8 @@ F 0 "C1" H 1465 3746 50  0000 L CNN
 F 1 "4.7u" H 1465 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1388 3550 50  0001 C CNN
 F 3 "~" H 1350 3700 50  0001 C CNN
+F 4 "Walsin" H 1350 3700 50  0001 C CNN "Manufacturer_Name"
+F 5 "0805X475M250CT" H 1350 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1350 3700
 	1    0    0    -1  
 $EndComp
@@ -251,6 +261,8 @@ F 0 "C2" H 2265 3746 50  0000 L CNN
 F 1 "4.7u" H 2265 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 3550 50  0001 C CNN
 F 3 "~" H 2150 3700 50  0001 C CNN
+F 4 "Walsin" H 2150 3700 50  0001 C CNN "Manufacturer_Name"
+F 5 "0805X475M250CT" H 2150 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2150 3700
 	1    0    0    -1  
 $EndComp
@@ -306,6 +318,8 @@ F 0 "J2" H 1480 992 50  0000 L CNN
 F 1 "MSTBA_2,5_3-G" H 1480 901 50  0000 L CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G_1x03_P5.00mm_Horizontal" H 1400 950 50  0001 C CNN
 F 3 "~" H 1400 950 50  0001 C CNN
+F 4 "-" H 1400 950 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 1400 950 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1400 950 
 	1    0    0    -1  
 $EndComp
@@ -317,6 +331,8 @@ F 0 "J3" H 1480 1592 50  0000 L CNN
 F 1 "Conn_01x02" H 1480 1501 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 1400 1600 50  0001 C CNN
 F 3 "~" H 1400 1600 50  0001 C CNN
+F 4 "-" H 1400 1600 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 1400 1600 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1400 1600
 	1    0    0    -1  
 $EndComp
@@ -380,6 +396,8 @@ F 0 "R12" V 8543 1450 50  0000 C CNN
 F 1 "0" V 8634 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8680 1450 50  0001 C CNN
 F 3 "~" H 8750 1450 50  0001 C CNN
+F 4 "(Generic)" H 8750 1450 50  0001 C CNN "Manufacturer_Name"
+F 5 "(0)" H 8750 1450 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8750 1450
 	0    1    1    0   
 $EndComp
@@ -391,6 +409,8 @@ F 0 "R13" V 8543 1800 50  0000 C CNN
 F 1 "DNP" V 8634 1800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8680 1800 50  0001 C CNN
 F 3 "~" H 8750 1800 50  0001 C CNN
+F 4 "-" H 8750 1800 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 8750 1800 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8750 1800
 	0    1    1    0   
 $EndComp
@@ -415,6 +435,8 @@ F 0 "R14" V 8543 2250 50  0000 C CNN
 F 1 "0" V 8634 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8680 2250 50  0001 C CNN
 F 3 "~" H 8750 2250 50  0001 C CNN
+F 4 "(Generic)" H 8750 2250 50  0001 C CNN "Manufacturer_Name"
+F 5 "(0)" H 8750 2250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8750 2250
 	0    1    1    0   
 $EndComp
@@ -426,6 +448,8 @@ F 0 "R15" V 8543 2600 50  0000 C CNN
 F 1 "DNP" V 8634 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8680 2600 50  0001 C CNN
 F 3 "~" H 8750 2600 50  0001 C CNN
+F 4 "-" H 8750 2600 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 8750 2600 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8750 2600
 	0    1    1    0   
 $EndComp
@@ -451,6 +475,8 @@ F 1 "0.1u" H 7615 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7538 1450 50  0001 C CNN
 F 3 "~" H 7500 1600 50  0001 C CNN
 F 4 "C1206C104M5RACTU" H 7500 1600 50  0001 C CNN "Man.#"
+F 5 "-" H 7500 1600 50  0001 C CNN "Manufacturer_Name"
+F 6 "-" H 7500 1600 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7500 1600
 	1    0    0    -1  
 $EndComp
@@ -492,6 +518,8 @@ F 0 "J5" H 9821 4446 50  0000 R CNN
 F 1 "AVR-UPDI-6" H 9821 4355 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 9900 4350 50  0001 C CNN
 F 3 "https://www.microchip.com/webdoc/GUID-9D10622A-5C16-4405-B092-1BDD437B4976/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F" H 8875 3850 50  0001 C CNN
+F 4 "-" H 10150 4400 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 10150 4400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    10150 4400
 	1    0    0    -1  
 $EndComp
@@ -587,6 +615,8 @@ F 0 "R8" V 7143 3800 50  0000 C CNN
 F 1 "10k" V 7234 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7280 3800 50  0001 C CNN
 F 3 "~" H 7350 3800 50  0001 C CNN
+F 4 "(Generic)" H 7350 3800 50  0001 C CNN "Manufacturer_Name"
+F 5 "(10k)" H 7350 3800 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7350 3800
 	0    1    1    0   
 $EndComp
@@ -603,6 +633,8 @@ F 0 "R10" V 7643 3800 50  0000 C CNN
 F 1 "2.2k" V 7734 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7780 3800 50  0001 C CNN
 F 3 "~" H 7850 3800 50  0001 C CNN
+F 4 "(Generic)" H 7850 3800 50  0001 C CNN "Manufacturer_Name"
+F 5 "(2.2k)" H 7850 3800 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7850 3800
 	0    1    1    0   
 $EndComp
@@ -622,6 +654,8 @@ F 0 "Q2" H 6191 4096 50  0000 L CNN
 F 1 "BC817" H 6191 4005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 3975 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6000 4050 50  0001 L CNN
+F 4 "Nexperia" H 6000 4050 50  0001 C CNN "Manufacturer_Name"
+F 5 "BC817-25,215" H 6000 4050 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6000 4050
 	1    0    0    -1  
 $EndComp
@@ -633,6 +667,8 @@ F 0 "Q4" H 6554 3596 50  0000 L CNN
 F 1 "BSS84" H 6554 3505 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 3475 50  0001 L CIN
 F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6350 3550 50  0001 L CNN
+F 4 "Diodes Inc." H 6350 3550 50  0001 C CNN "Manufacturer_Name"
+F 5 "BSS84-7-F" H 6350 3550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 3550
 	1    0    0    -1  
 $EndComp
@@ -644,6 +680,8 @@ F 0 "R4" V 5693 3550 50  0000 C CNN
 F 1 "10k" V 5784 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5830 3550 50  0001 C CNN
 F 3 "~" H 5900 3550 50  0001 C CNN
+F 4 "(Generic)" H 5900 3550 50  0001 C CNN "Manufacturer_Name"
+F 5 "(10k)" H 5900 3550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5900 3550
 	0    1    1    0   
 $EndComp
@@ -690,6 +728,8 @@ F 0 "R2" V 5343 4050 50  0000 C CNN
 F 1 "1k" V 5434 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5480 4050 50  0001 C CNN
 F 3 "~" H 5550 4050 50  0001 C CNN
+F 4 "(Generic)" H 5550 4050 50  0001 C CNN "Manufacturer_Name"
+F 5 "(1k)" H 5550 4050 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5550 4050
 	0    1    1    0   
 $EndComp
@@ -722,6 +762,8 @@ F 0 "R6" V 6693 3550 50  0000 C CNN
 F 1 "DNP" V 6784 3550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6830 3550 50  0001 C CNN
 F 3 "~" H 6900 3550 50  0001 C CNN
+F 4 "-" H 6900 3550 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 6900 3550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6900 3550
 	-1   0    0    1   
 $EndComp
@@ -743,6 +785,8 @@ F 0 "R9" V 7143 5500 50  0000 C CNN
 F 1 "10k" V 7234 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7280 5500 50  0001 C CNN
 F 3 "~" H 7350 5500 50  0001 C CNN
+F 4 "(Generic)" H 7350 5500 50  0001 C CNN "Manufacturer_Name"
+F 5 "(10k)" H 7350 5500 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7350 5500
 	0    1    1    0   
 $EndComp
@@ -759,6 +803,8 @@ F 0 "R11" V 7643 5500 50  0000 C CNN
 F 1 "2.2k" V 7734 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7780 5500 50  0001 C CNN
 F 3 "~" H 7850 5500 50  0001 C CNN
+F 4 "(Generic)" H 7850 5500 50  0001 C CNN "Manufacturer_Name"
+F 5 "(2.2k)" H 7850 5500 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7850 5500
 	0    1    1    0   
 $EndComp
@@ -778,6 +824,8 @@ F 0 "Q3" H 6191 5796 50  0000 L CNN
 F 1 "BC817" H 6191 5705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 5675 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6000 5750 50  0001 L CNN
+F 4 "Nexperia" H 6000 5750 50  0001 C CNN "Manufacturer_Name"
+F 5 "BC817-25,215" H 6000 5750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6000 5750
 	1    0    0    -1  
 $EndComp
@@ -789,6 +837,8 @@ F 0 "Q5" H 6554 5296 50  0000 L CNN
 F 1 "BSS84" H 6554 5205 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 5175 50  0001 L CIN
 F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6350 5250 50  0001 L CNN
+F 4 "Diodes Inc." H 6350 5250 50  0001 C CNN "Manufacturer_Name"
+F 5 "BSS84-7-F" H 6350 5250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 5250
 	1    0    0    -1  
 $EndComp
@@ -800,6 +850,8 @@ F 0 "R5" V 5693 5250 50  0000 C CNN
 F 1 "10k" V 5784 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5830 5250 50  0001 C CNN
 F 3 "~" H 5900 5250 50  0001 C CNN
+F 4 "(Generic)" H 5900 5250 50  0001 C CNN "Manufacturer_Name"
+F 5 "(10k)" H 5900 5250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5900 5250
 	0    1    1    0   
 $EndComp
@@ -846,6 +898,8 @@ F 0 "R3" V 5343 5750 50  0000 C CNN
 F 1 "1k" V 5434 5750 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5480 5750 50  0001 C CNN
 F 3 "~" H 5550 5750 50  0001 C CNN
+F 4 "(Generic)" H 5550 5750 50  0001 C CNN "Manufacturer_Name"
+F 5 "(1k)" H 5550 5750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5550 5750
 	0    1    1    0   
 $EndComp
@@ -878,6 +932,8 @@ F 0 "R7" V 6693 5250 50  0000 C CNN
 F 1 "DNP" V 6784 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6830 5250 50  0001 C CNN
 F 3 "~" H 6900 5250 50  0001 C CNN
+F 4 "-" H 6900 5250 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 6900 5250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6900 5250
 	-1   0    0    1   
 $EndComp
@@ -899,6 +955,8 @@ F 0 "F1" H 2660 1346 50  0000 L CNN
 F 1 "10A" H 2660 1255 50  0000 L CNN
 F 2 "attiny1614_accsupervisor:Fuseholder_Cylinder-5x20mm_Geoyoung_GF-205B" V 2530 1300 50  0001 C CNN
 F 3 "~" H 2600 1300 50  0001 C CNN
+F 4 "(Generic)" H 2600 1300 50  0001 C CNN "Manufacturer_Name"
+F 5 "(10A)" H 2600 1300 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2600 1300
 	1    0    0    -1  
 $EndComp
@@ -910,6 +968,8 @@ F 0 "F2" H 3160 1346 50  0000 L CNN
 F 1 "2A" H 3160 1255 50  0000 L CNN
 F 2 "attiny1614_accsupervisor:Fuseholder_Cylinder-5x20mm_Geoyoung_GF-205B" V 3030 1300 50  0001 C CNN
 F 3 "~" H 3100 1300 50  0001 C CNN
+F 4 "-" H 3100 1300 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 3100 1300 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3100 1300
 	1    0    0    -1  
 $EndComp
@@ -949,6 +1009,8 @@ F 0 "D1" H 2100 5967 50  0000 C CNN
 F 1 "US1A" H 2100 5876 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 2100 5575 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds16008.pdf" H 2100 5750 50  0001 C CNN
+F 4 "Diodes Inc." H 2100 5750 50  0001 C CNN "Manufacturer_Name"
+F 5 "US1A-13-F" H 2100 5750 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2100 5750
 	1    0    0    -1  
 $EndComp
@@ -960,6 +1022,8 @@ F 0 "Q1" H 2541 6196 50  0000 L CNN
 F 1 "BC817" H 2541 6105 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 6075 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2350 6150 50  0001 L CNN
+F 4 "Nexperia" H 2350 6150 50  0001 C CNN "Manufacturer_Name"
+F 5 "BC817-25,215" H 2350 6150 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2350 6150
 	1    0    0    -1  
 $EndComp
@@ -971,6 +1035,8 @@ F 0 "H1" H 4300 6946 50  0000 L CNN
 F 1 "3.2mm" H 4300 6855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 6900 50  0001 C CNN
 F 3 "~" H 4200 6900 50  0001 C CNN
+F 4 "-" H 4200 6900 50  0001 C CNN "Manufacturer_Name"
+F 5 "-" H 4200 6900 50  0001 C CNN "Manufacturer_Part_Number"
 	1    4200 6900
 	1    0    0    -1  
 $EndComp
@@ -1004,13 +1070,15 @@ ADC_ON
 NoConn ~ 6250 1750
 NoConn ~ 6250 1850
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5F5B52F6
 P 1750 3700
-F 0 "C?" H 1865 3746 50  0000 L CNN
+F 0 "C4" H 1865 3746 50  0000 L CNN
 F 1 "4.7u" H 1865 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1788 3550 50  0001 C CNN
 F 3 "~" H 1750 3700 50  0001 C CNN
+F 4 "Walsin" H 1750 3700 50  0001 C CNN "Manufacturer_Name"
+F 5 "0805X475M250CT" H 1750 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    1750 3700
 	1    0    0    -1  
 $EndComp
@@ -1022,10 +1090,10 @@ Wire Wire Line
 	1750 3400 1350 3400
 Connection ~ 1350 3400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5F5C8092
 P 3350 4000
-F 0 "#PWR?" H 3350 3750 50  0001 C CNN
+F 0 "#PWR014" H 3350 3750 50  0001 C CNN
 F 1 "GND" H 3355 3827 50  0000 C CNN
 F 2 "" H 3350 4000 50  0001 C CNN
 F 3 "" H 3350 4000 50  0001 C CNN
@@ -1033,35 +1101,41 @@ F 3 "" H 3350 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5F5D96DE
 P 2550 3700
-F 0 "C?" H 2665 3746 50  0000 L CNN
+F 0 "C5" H 2665 3746 50  0000 L CNN
 F 1 "4.7u" H 2665 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 3550 50  0001 C CNN
 F 3 "~" H 2550 3700 50  0001 C CNN
+F 4 "Walsin" H 2550 3700 50  0001 C CNN "Manufacturer_Name"
+F 5 "0805X475M250CT" H 2550 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2550 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5F5D99D3
 P 2950 3700
-F 0 "C?" H 3065 3746 50  0000 L CNN
+F 0 "C6" H 3065 3746 50  0000 L CNN
 F 1 "4.7u" H 3065 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2988 3550 50  0001 C CNN
 F 3 "~" H 2950 3700 50  0001 C CNN
+F 4 "Walsin" H 2950 3700 50  0001 C CNN "Manufacturer_Name"
+F 5 "0805X475M250CT" H 2950 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    2950 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5F5D9D40
 P 3350 3700
-F 0 "C?" H 3465 3746 50  0000 L CNN
+F 0 "C7" H 3465 3746 50  0000 L CNN
 F 1 "4.7u" H 3465 3655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3388 3550 50  0001 C CNN
 F 3 "~" H 3350 3700 50  0001 C CNN
+F 4 "Walsin" H 3350 3700 50  0001 C CNN "Manufacturer_Name"
+F 5 "0805X475M250CT" H 3350 3700 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3350 3700
 	1    0    0    -1  
 $EndComp
