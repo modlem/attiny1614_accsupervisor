@@ -534,14 +534,13 @@ RLY_ON
 Wire Wire Line
 	6250 1750 6450 1750
 Text Label 6450 1750 0    50   ~ 0
-ADC1_VIN
+ADC2_ACC
 Wire Wire Line
 	6250 1850 6450 1850
 Text Label 6450 1850 0    50   ~ 0
-ADC2_ACC
+ADC1_VIN
 NoConn ~ 5050 1150
 NoConn ~ 5050 1250
-NoConn ~ 6250 1350
 NoConn ~ 6250 1450
 NoConn ~ 6250 1550
 NoConn ~ 6250 1650
@@ -1007,4 +1006,8 @@ Text Label 9100 2600 0    50   ~ 0
 JST_RX
 Wire Wire Line
 	8900 2600 9100 2600
+Wire Wire Line
+	6250 1350 6450 1350
+Text Label 6450 1350 0    50   ~ 0
+ADC_ON
 $EndSCHEMATC
