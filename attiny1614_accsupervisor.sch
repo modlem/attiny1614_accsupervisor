@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "ATTINY-ACC-Supervisor"
 Date "2020-09-22"
-Rev "r02"
+Rev "r03"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -541,7 +541,7 @@ Wire Wire Line
 Text Label 9650 3950 2    50   ~ 0
 3V3
 Wire Wire Line
-	10550 4300 10650 4300
+	10550 4300 10600 4300
 Text Label 10650 4300 0    50   ~ 0
 UPDI_DATA
 Wire Wire Line
@@ -1174,4 +1174,29 @@ Connection ~ 1350 4000
 Connection ~ 3350 4000
 Text Notes 5400 3150 0    50   ~ 0
 r02 note: Q4, Q5 pin 2, 3 net changed
+$Comp
+L Device:R R16
+U 1 1 5F6A2A3A
+P 10350 3950
+F 0 "R16" V 10143 3950 50  0000 C CNN
+F 1 "10k" V 10234 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10280 3950 50  0001 C CNN
+F 3 "~" H 10350 3950 50  0001 C CNN
+F 4 "(Generic)" H 10350 3950 50  0001 C CNN "Manufacturer_Name"
+F 5 "(10k)" H 10350 3950 50  0001 C CNN "Manufacturer_Part_Number"
+	1    10350 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 4300 10600 3950
+Connection ~ 10600 4300
+Wire Wire Line
+	10600 4300 10650 4300
+Wire Wire Line
+	10500 3950 10600 3950
+Wire Wire Line
+	10200 3950 10050 3950
+Connection ~ 10050 3950
+Text Notes 8700 3700 0    50   ~ 0
+r03 note: 10k pull-up for UPDI/~RESET
 $EndSCHEMATC
