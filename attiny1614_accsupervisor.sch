@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ATTINY-ACC-Supervisor"
-Date "2020-09-01"
-Rev "r01"
+Date "2020-09-22"
+Rev "r02"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -670,7 +670,7 @@ F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6350 3550 50  
 F 4 "Diodes Inc." H 6350 3550 50  0001 C CNN "Manufacturer_Name"
 F 5 "BSS84-7-F" H 6350 3550 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 3550
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -840,7 +840,7 @@ F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6350 5250 50  
 F 4 "Diodes Inc." H 6350 5250 50  0001 C CNN "Manufacturer_Name"
 F 5 "BSS84-7-F" H 6350 5250 50  0001 C CNN "Manufacturer_Part_Number"
 	1    6350 5250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R5
@@ -1172,4 +1172,6 @@ Wire Wire Line
 	2950 4000 2550 4000
 Connection ~ 1350 4000
 Connection ~ 3350 4000
+Text Notes 5400 3150 0    50   ~ 0
+r02 note: Q4, Q5 pin 2, 3 net changed
 $EndSCHEMATC

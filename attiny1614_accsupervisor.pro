@@ -1,4 +1,4 @@
-update=2020-09-02 오후 1:22:19
+update=2020-09-21 오전 11:30:12
 version=1
 last_client=kicad
 [general]
